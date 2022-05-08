@@ -11,5 +11,7 @@ export class BasicosComponent{
     nombreLower = 'deiber olivares';
     nombreUpper = 'DEIBER OLIVARES';
     nombreCompleto = 'deiBer olIVaRes';
+    
+    fecha : Date = new Date();
 
 }

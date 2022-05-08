@@ -5,11 +5,36 @@ body{
     background-color: var(--surface-b);
 }
 
+.contenedor{
+    max-width: 1200px ! important;
+    margin: 50px auto 0 auto;
+}
+
 .text-layout {
     color: var(--text-color);
 }
 
 .p-card {
-    width: 25rem;
     margin: 2rem 0;
+    height: 300px;
+}
+
+.card-item .card-2{
+    width: 550px !important;
+}
+
+.card-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-item{
+}
+
+.card-1{
+    width: 45%;
+}
+
+.card-2{
+    width:50%;
 }
